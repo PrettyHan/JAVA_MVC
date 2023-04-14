@@ -1,0 +1,11 @@
+<Context docBase="mvc_spring_jdbc" path="/mvc_spring_jdbc"
+	reloadable="true" source="org.eclipse.jst.jee.server:mvc_spring_jdbc">
+	<Resource name="jdbc/mvc_spring_jdbc"
+		type="javax.sql.DataSource" auth="Container"
+		factory="org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory"
+
+		driverClassName="com.mysql.jdbc.Driver"
+		url="jdbc:mysql://edu-rds.cvnchhmpxjaw.ap-northeast-1.rds.amazonaws.com:3306/suj202302_han_woosung_edu?useUnicode=true&amp;characterEncoding=utf8&amp;useSSL=false"
+		username="han.woosung_edu" password="xDSV9wmPcm" maxTotal="5"
+		maxIdle="5" minIdle="1" initialSize="1" />
+</Context>
